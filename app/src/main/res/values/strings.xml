@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Dobokockak</string>
+    <string name="dob">Dobás!</string>
+    <string name="clear">Dobás lista törlése!</string>
+    <string name="statistic">Statisztika</string>
+    <string name="dobokocka_tipus">Dobókocka típus</string>
+    <string-array name="kockak">
+        <item>Érme</item>
+        <item>Általános dobókocka</item>
+        <item>Tetraéder</item>
+        <item>Oktaéder</item>
+        <item>Dodekaéder</item>
+        <item>Ikozaéder</item>
+    </string-array>
+</resources>

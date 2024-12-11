@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Általános statisztika"
+        android:textSize="24sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/totalCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Összes dobás száma: 0"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/coinCountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Érme dobások száma: 0"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/d4CountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tetraéder dobások száma: 0"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/d6CountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Általános dobókocka dobások száma: 0"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/d8CountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Oktaéder dobások száma: 0"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/d12CountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dodekaéder dobások száma: 0"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/d20CountTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ikozaéder dobások száma: 0"
+        android:textSize="18sp" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="d4 Statisztika"
+        android:textSize="24sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/d4mostFrequentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leggyakoribb dobás: Nincs statisztika"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/d4leastFrequentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Legritkább dobás: Nincs statisztika"
+        android:textSize="18sp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="d6 Statisztika"
+        android:textSize="24sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/d6mostFrequentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leggyakoribb dobás: Nincs statisztika"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/d6leastFrequentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Legritkább dobás: Nincs statisztika"
+        android:textSize="18sp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="d8 Statisztika"
+        android:textSize="24sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/d8mostFrequentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leggyakoribb dobás: Nincs statisztika"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/d8leastFrequentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Legritkább dobás: Nincs statisztika"
+        android:textSize="18sp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="d12 Statisztika"
+        android:textSize="24sp"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/d12mostFrequentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leggyakoribb dobás: Nincs statisztika"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/d12leastFrequentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Legritkább dobás: Nincs statisztika"
+        android:textSize="18sp"/>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="d20 Statisztika"
+        android:textSize="24sp"
+        android:gravity="center" />
+    <TextView
+        android:id="@+id/d20mostFrequentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Leggyakoribb dobás: Nincs statisztika"
+        android:textSize="18sp"/>
+    <TextView
+        android:id="@+id/d20leastFrequentTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Legritkább dobás: Nincs statisztika"
+        android:textSize="18sp"/>
+    </LinearLayout>
+</ScrollView>
